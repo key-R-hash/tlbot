@@ -9,7 +9,7 @@ function insert($title,$content) {
         'post_content_filtered' => '',
         'post_title' => $title,
         'post_excerpt' => '',
-        'post_status' => 'draft',
+        'post_status' => 'publish',
         'post_type' => 'post',
         'comment_status' => '',
         'ping_status' => '',

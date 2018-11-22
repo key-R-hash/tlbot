@@ -29,9 +29,7 @@ function settings_section_telegram_insert_bot(){
 	_e('telegram insert bot','telegram-insert-bot');
 }
 function settings_telegram_insert_bot($args){
-	// print_r($args['options']);
-	// print_r(wp_login('kiarash','k3691215','wp_signon()'));
-	$connection = new mysqli('localhost','kiarash','Skills39','wp');
+	$connection = new mysqli('localhost','kiarash','Skills39*','wp');
     if ($connection->connect_error) {
         die("Connection failed: " . $connection->connect_error);
     }
